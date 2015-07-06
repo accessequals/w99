@@ -1,0 +1,241 @@
+Perceivable		
+	1.1	Text Alternatives: Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
+A	1.1.1	Non-text content that is presented to the user has text alternatives that serve the equivalent purpose, with exceptions, which are marked with a leading * in the test statements.
+A	1.1.1-1	Images have alternative text that correctly represents their purpose.
+A	1.1.1-2	Complex images, such as graphs and diagrams, have alternative text concisely identifying the image and the location of its long description
+A	1.1.1-3	Complex images have long descriptions that convey the same information that is conveyed by the image
+A	1.1.1-4	LONGDESC attributes are used appropriately and accurately.
+A	1.1.1-5	Groups of images conveying a single piece of information, such as ranking stars, or stage progression images, have appropriate ALT attributes.
+A	1.1.1-6	Background images are only used as decoration OR replicate information that is present in text.
+A	1.1.1-7	Image map images all have alternative text providing an accurate context for the map's AREA elements.
+A	1.1.1-8	Image map AREA elements have alternative text accurately describing the destination of links
+A	1.1.1-9	Updates that change the meaning or information in non-text content also update the alternative text
+A	1.1.1-10	Inaccessible functional embedded objects, interfaces and applets have an adjacent link to an accessible alternative that serves the same purpose.
+A	1.1.1-11	Informative objects, interfaces and applets can be read by access technology, or have a text alternative that serves the same purpose.
+A	1.1.1-12	* Non-text custom controls and elements that accept user input have names that describe their purpose.
+A	1.1.1-13	* Audio-only has a text alternative that at least describes the topic of the audio.
+A	1.1.1-14	* Tests or exercises that must be presented in non-text format have descriptive text alternatives.
+A	1.1.1-15	* Non-text content designed to create a specific sensory experience has descriptive text alternatives.
+A	1.1.1-16	* CAPTCHA challenges have a text description and at least two sensory challenges.
+A	1.1.1-17	* Objects and components that are used for decoration, formatting, or are Invisible, are rendered invisible to assistive technology.
+A	1.2	Time-based Media: Provide alternatives for time-based media.
+A	1.2.1	An alternative for time-based media is provided that presents equivalent information for pre-recorded audio-only content or video-only content, unless it is in itself an alternative presentation of text content.
+A	1.2.1-1	Audio or silent video used as an alternative to text content is clearly identified as such, and contains only information available in the primary content.
+A	1.2.1-2	Audio that isn’t replicated in text on the same page has a text alternative equivalent to the audible information.
+A	1.2.1-3	Silent video that isn’t described in text on the same page has a text or audio alternative equivalent to the visual information.
+A	1.2.2	Captions are provided for pre-recorded synchronized media.
+A	1.2.2-1	Multimedia used as an alternative to text content is clearly identified as such, and contains only audible information available in the primary content.
+A	1.2.2-2	Multimedia that isn’t replicated in text on the same page has synchronised captions for audio content.
+A	1.2.2-3	Captions are complete, missing no dialogue, speaker identification or important sound effects.
+A	1.2.3	An alternative for time-based media or audio description of the pre-recorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
+A	1.2.3-1	Multimedia used as an alternative to text content is clearly identified as such, and contains only visual information available in the primary content.
+A	1.2.3-2	Multimedia that isn’t replicated in text on the same page has synchronised audio description of visual information, or a full text transcription.
+A	1.2.3-3	Audio description is complete, missing no visual information present in the video.
+A	1.2.3-4	Text transcriptions are complete, missing no visual or auditory information present in the video.
+A	1.2.3-5	Links to text transcriptions are clearly labelled as such, positioned immediately next to the media (before embedded media, or adjacent to links that activate media players).
+AA	1.2.4	Captions are provided for all live audio content in synchronized media.
+AA	1.2.4-1	Live webcasts have synchronized captions of the audio content.
+AA	1.2.4-2	Live captions are complete, missing no dialogue or important sound effects.
+AA	1.2.5	Audio description is provided for all pre-recorded video content in synchronized media.
+AA	1.2.5-1	Multi-media has synchronized audio description of visual information.
+AAA	1.2.6	Sign language interpretation is provided for all prerecorded audio content in synchronized media. 
+AAA	1.2.6-1	Multi-media has sign language interpretation.
+AAA	1.2.7	Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media. 
+AAA	1.2.7-1	Video is periodically paused to give time to add additional audio description
+AAA	1.2.7-2	Extended audio description versions of video presentations are available.
+AAA	1.2.8	An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media. 
+AAA	1.2.8-1	A full text transcription is provided for all multi-media or video-only content. 
+AAA	1.2.8-2	Text transcriptions are complete, missing no visual or auditory information present in the video. 
+AAA	1.2.8-3	Links to media alternatives are clearly labelled as such, positioned immediately next to the media (before embedded media, or adjacent to links that activate media players). 
+	1.3	Adaptable: Create content that can be presented in different ways (for example simpler layout ) without losing information or structure.
+A	1.3.1	Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+		HEADINGS
+A	1.3.1-1	Text that is styled as and acts as headings uses heading markup.
+A	1.3.1-2	Only text that heads up content has been coded as headings.
+A	1.3.1-3	Heading markup precedes, rather than encloses, subordinate content.
+		TABLES
+A	1.3.1-4	Where tabular layout is required to understand data, data tables are used.
+A	1.3.1-5	Data tables have separate cells for individual data items.
+A	1.3.1-6	Simple data table headers are correctly marked up to make the headers programmatically determinable from within table content.
+A	1.3.1-7	Table summaries and captions are used appropriately and are correct for the DOCTYPE.
+A	1.3.1-8	Complex data tables have correct and appropriate SCOPE, ID and HEADERS markup.
+A	1.3.1-9	Layout tables are free of data table elements and attributes.
+		LISTS
+A	1.3.1-10	List elements OL, UL and DL are used only for appropriate lists.
+A	1.3.1-11	Where items are presented in a visual list, list markup is used.
+		FORMS
+A	1.3.1-12	Form labels are correctly associated with their related fields.
+A	1.3.1-13	The context or relationship between groups of form controls is programmatically identified.
+A	1.3.1-14	The title attribute is correctly used to identify form controls when the label element cannot be used.
+		All CONTENT
+A	1.3.1-15	Variations of text formatting that convey information have text alternatives.
+A	1.3.1-16	EM or STRONG elements, rather than styling, are used for emphasis.
+A	1.3.1-17	BLOCKQUOTE and CITE elements are used for quotations only.
+A	1.3.1-18	Where quotations are cited, BLOCKQUOTE elements are used.
+A	1.3.1-19	Scripted links are recognisable as such by screen readers.
+A	1.3.1-20	ID attributes have unique values.
+	1.3.1-21	Appropriate methods are used to update DOM content.
+A	1.3.1-22	CSS pseudo elements "before" and "after" contain only decorative text.
+A	1.3.1-23	WAI-ARIA roles are not used in a way that inappropriately changes or suppresses semantic structure.
+A	1.3.2	When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
+A	1.3.2-1	Layout tables can be linearised, without making the reading order or relationship sequence of content illogical.
+A	1.3.2-2	White space and line breaks are not used for visual effect.
+A	1.3.2-3	CSS styling can be removed, without making the reading order or relationship sequence of content illogical.
+	1.3.2-4	Text and focusable elements have a logical reading order and relationship sequence.
+A	1.3.2-4	Instructions for completing or correcting forms and form fields are programmatically determinable or positioned before the first, or related, field.
+A	1.3.3	Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound. 
+A	1.3.3-1	Sensory characteristics such as size, shape or location are not referred to without a text or structural alternative means of identification.
+A	1.3.3-2	Unexplained symbols or glyphs are not used to convey information.
+	1.4	Distinguishable: Make it easier for users to see and hear content including separating foreground from background.
+A	1.4.1	Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
+A	1.4.1-1	Patterns as well as colour differences are used to convey information in visual presentations.
+A	1.4.1-2	Information conveyed by colour difference is also available in text.
+A	1.4.1-3	Link text is distinguished from plain text by underline, other styling or a significant colour difference.
+A	1.4.2	If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+A	1.4.2-1	Audio or video with sound that lasts for more than 3 seconds is static on page load, or has a pause mechanism available at the top of the page.
+AA	1.4.3	"The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: 
+• Large Text: has a contrast ratio of at least 3:1.
+• Incidental, decorative or inactive text has no contrast requirement.
+• Text that is part of a logo or brand name has no contrast requirement."
+AA	1.4.3-1	Contrast ratios achieve the minimum threshold or a style switch option with good contrast is provided.
+AA	1.4.3-2	Colour is defined for both background and text, or for neither.
+AA	1.4.3-3	Images of text have a background colour that provides sufficient contrast.
+AA	1.4.3-4	Background images provide good contrast for foreground text.
+AA	1.4.3-5	Styled focus state indicators have sufficient contrast against background colours.
+AA	1.4.4	Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
+AA	1.4.4-1	Text can be resized up to 200% without any cropping, truncating, overlapping, or loss of any information.
+AA	1.4.4-2	The size of text in form controls increases in proportion to the page text resize.
+AA	1.4.5	Images of text are used only where appropriate, or alternative views are available.
+AA	1.4.5-1	Images of text are only used where the same presentation couldn't be achieved using text and styling.
+AA	1.4.5-2	Images of text can be replaced or restyled using style switching functionality.
+AAA	1.4.6	"The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following: 
+• Large Text:  Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;
+• Incidental:  Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
+• Logotypes:  Text that is part of a logo or brand name has no minimum contrast requirement."
+AAA	1.4.6-1	Contrast ratios achieve the enhanced threshold or a style switch option with good contrast is provided.
+AAA	1.4.6-2	Colour is defined for both background and text, or for neither.
+AAA	1.4.6-3	Images of text have a background colour that provides sufficient contrast.
+AAA	1.4.6-4	Background images provide good contrast for foreground text.
+AAA	1.4.7	"For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true: 
+•No Background: The audio does not contain background sounds.
+•Turn Off: The background sounds can be turned off.
+•20 dB:  The background sounds are at least 20 decibels lower than the foreground speech content, with the exception of occasional sounds that last for only one or two seconds."
+AAA	1.4.7-1	Speech audio is free of background sound. .
+AAA	1.4.7-2	Background sounds in speech audio can be turned off.
+AAA	1.4.7-3	Foreground sound in speech audio is at least four times louder than background sounds.
+AAA	1.4.8	"For the visual presentation of blocks of text, a mechanism is available to achieve the following: 
+1.Foreground and background colors can be selected by the user.
+2.Width is no more than 80 characters or glyphs (40 if CJK
+3.Text is not justified (aligned to both the left and the right margins).
+4. Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
+5.Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window."
+AAA	1.4.8-1	Foreground and background colours can be selected by the user, at least for the main content of web pages.
+AAA	1.4.8-2	Lines of text are no more than 80 characters in length.
+AAA	1.4.8-3	Text is not justified to both left and right margins.
+AAA	1.4.8-4	Line spacing within paragraphs is 1.5 times the normal spacing and spacing between paragraphs is 1.5 times the standard spacing. 
+AAA	1.4.8-5	Text can be resized to 200% without the need to scroll horizontally to read lines of text. 
+Operable		
+	2.1	Keyboard Accessible: Make all functionality available from a keyboard
+A	2.1.1	All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
+A	2.1.1-1	Links and form controls can be reached and activated by keyboard navigation, as well as mouse action.
+A	2.1.1-2	Interactive components are all device independent, or provide an alternative mechanism for keyboard control.
+A	2.1.1-3	Information that is revealed on mouse action is also revealed on keyboard action.
+A	2.1.2	If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+A	2.1.2-1	There are no web page components that trap keyboard focus.
+A	2.1.2-2	Help on moving focus into and out of components is keyboard accessible and available prior to encountering components that can trap focus.
+	2.2	Enough Time: Provide users enough time to read and use content .
+A	2.2.1	"For each time limit that is set by the content, at least one of the following is true
+• The user can turn off the time limit before encountering it; or 
+• Adjust: The user can adjust the time limit before encountering it at least ten times the length of the default setting; or
+• The user is warned before time expires and given at least 20 seconds to extend the time limit, at least ten times; or
+• The time limit is a required part of a real-time event (for example, an auction); or
+• The time limit is essential (for instance, limited availability ticket sales), extending time would invalidate the activity; or 
+• The time limit is longer than 20 hours."
+A	2.2.1-1	If a whole or part page automatic REFRESH will occur, the user is forewarned and able to adjust the timing or turn off the refresh.
+A	2.2.1-2	If a timed automatic REDIRECT occurs the user is able to turn off or adjust the time limit, or is warned and can extend the time.
+A	2.2.1-3	If an automatic TIMEOUT occurs the user is able to turn off or adjust the time limit, or is warned before the time expires and can extend it.
+A	2.2.2	"For moving, blinking, scrolling, or auto-updating information, all of the following are true:
+• Moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3)is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential; and
+• Auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential."
+A	2.2.2-1	All moving, blinking or scrolling content in web pages that include static content, either lasts for 5 seconds or less, or can be paused, stopped or hidden by the user.
+A	2.2.2-2	Moving, blinking or scrolling content that is meant to be read can be paused and restarted.
+A	2.2.2-3	If content is auto-updated, unless the auto-updating is part of an activity where it is essential, users can stop or control updates.
+A	2.2.2-4	If an essential auto-update occurs users are notified of the updates in a way compatible with assistive technology.
+	2.3	Seizures: Do not design content in a way that is known to cause seizures.
+A	2.3.1	Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.
+A	2.3.1-1	There is no Flashing content.
+A	2.3.1-2	Flashing content is slower than 3 flashes per second.
+A	2.3.1-3	The size of flashing content is too small to cause seizures.
+	2.4	Navigable: Provide ways to help users navigate, find content and determine where they are.
+A	2.4.1	A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
+A	2.4.1-1	Blocks of repeated content are bypassed by correctly functioning skip links.
+A	2.4.1-2	Blocks of repeated content are followed by a higher level heading than any heading that is part of the repeated block.
+A	2.4.1-3	Blocks of repeated content can be bypassed by navigating landmarks or regions.
+A	2.4.2	Web pages have titles that describe topic or purpose.
+A	2.4.2-1	All pages (including those displayed within frames) have page titles.
+A	2.4.2-2	Page titles describe the topic or purpose of the page.
+A	2.4.2-3	Each page title is unique, unless it is the result of a user search.
+A	2.4.3	If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+A	2.4.3-1	Keyboard focus order is logical through all interactive elements on web pages.
+A	2.4.3-3	Interactive components within any interface are accessed in a meaningful order.
+A	2.4.4	The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
+A	2.4.4-1	All links have text content. ALT text on linked images counts as link text.
+A	2.4.4-2	The destination of links is made clear by link text, or link text that is given context by: structural association; title or WAI-ARIA attributes or enclosed hidden text.
+AA	2.4.5	More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
+AA	2.4.5-1	More than one way to navigate between web pages is provided.
+AA	2.4.6	Headings and labels describe topic or purpose.
+AA	2.4.6-1	Headings are descriptive and accurate.
+AA	2.4.6-2	Label text is accurate and makes the control purpose clear.
+AA	2.4.7	Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
+AA	2.4.7-1	All focusable elements have a visible indicator to show when they have received focus. 
+Understandable		
+	3.1	Readable: Make text content readable and understandable.
+A	3.1.1	The default human language of each Web page can be programmatically determined.
+A	3.1.1-1	Default language is defined for all pages by accurate values provided in the LANG attribute of the HTML element.
+AA	3.1.2	The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. 
+AA	3.1.2-1	Changes of language are identified by appropriate use of the LANG attribute, except for proper names and terms adopted into the main language for the page.
+	3.2	Predictable: Make Web pages appear and operate in predictable ways.
+A	3.2.1	When any component receives focus, it does not initiate a change of context.
+A	3.2.1-1	The default language is accurately defined in all pages and documents.
+A	3.2.1-2	Focus on an element doesn't cause any change of context, such as new window opening, moving or losing the focus or form submission.
+A	3.2.2	Changing the setting of any user interface component  does not automatically cause a change of context  unless the user has been advised of the behavior before using the component.
+A	3.2.2-1	Users are forewarned of any change of context, such as form submission or new window opening that will result from user input or change of control setting.
+A	3.2.2-2	Providing input or changing a form control setting does not result in loss of focus from the triggering control.
+AA	3.2.3	Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+AA	3.2.3-1	Navigational segments repeated on multiple Web pages occur in the same relative order each time they are used, unless the user initiates the change.
+AA	3.2.4	Components that have the same functionality within a set of Web pages are identified consistently.
+AA	3.2.4-1	Labels, links and buttons with the same function in different Web pages are identified consistently.
+	3.3	Input Assistance: Help users avoid and correct mistakes.
+A	3.3.1	If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+A	3.3.1-1	Fields with detected errors are identified by their label values.
+	3.3.1-2	Detected mandatory fields without input are identified and described in text.
+A	3.3.1-3	Detected fields with incorrect data formats are identified and described in text
+A	3.3.2	Labels or instructions are provided when content requires user input.
+A	3.3.2-1	Label text is present, accurate and makes the control purpose and required input clear.
+A	3.3.2-2	The context or relationship between groups of form controls is identified effectively.
+A	3.3.2-3	Instructions for completing forms are clear and complete.
+A	3.3.3	If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
+A	3.3.3-1	The user is told which mandatory fields still require input.
+A	3.3.3-3	Fields with incorrect data formats are identified and a suggestion for correct format is made
+A	3.3.4	For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
+A	3.3.4-1	Data entered by the user is checked for input errors and the user is given an opportunity to make corrections.
+A	3.3.4-2	A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+A	3.3.4-3	Submissions are reversible.
+Robust		
+	4.1	Compatible: Maximize compatibility with current and future user agents, including assistive technologies.
+A	4.1.1	In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
+A	4.1.1-1	HTML documents have a valid DOCTYPE.
+A	4.1.1-2	Elements are properly nested.
+A	4.1.1-3	Start and end tags are complete and correct for the DOCTYPE.
+A	4.1.1-4	ID attributes have unique values.
+A	4.1.1-5	All attributes used in a single element are unique.
+A	4.1.1-6	Attributes have matching start and end quotes.
+A	4.1.2	For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.
+A	4.1.2-1	Label text or name values make the purpose of active components or required input clear.
+A	4.1.2-2	Form labels are correctly associated with their related fields.
+A	4.1.2-3	The name, role and state of active components is correct and can be programmatically determined.
+A	4.1.2-4	Any value that can be reset by the user is both visually and programmatically determinable.
+A	4.1.2-5	The visible value of non-text active components and the value exposed to access technologies match.
+A	4.1.2-6	Updates that change the meaning or information in non-text content also update the alternative text
+A	4.1.2-7	Frames have descriptive title attributes.
+A	4.1.2-8	IFRAME elements have descriptive title attributes.
